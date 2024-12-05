@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Menu - Celestial Plate</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+         body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to bottom, #8B4513, #000);
+            color: white;
+        }
+        header {
+            background-color: #4B2E26;
+            padding: 10px;
+            text-align: center;
+            font-size: 24px;
+        }
+        h1{
+            color: white;
+            padding: 10px;
+            text-align: center;
+            font-size: 24px; 
+
+        }
+        p{
+            color: white;
+            padding: 10px;
+            text-align: center;
+            font-size: 18px; 
+
+        }
+       
+        
+        nav {
+            background-color: #2F1B13;
+            display: flex;
+            justify-content: center;
+            padding: 10px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 18px;
+            padding: 10px 20px;
+            border-radius: 5px;
+        }
+        nav a:hover {
+            background-color: #8B4513;
+        }
+        section {
+            padding: 20px;
+            text-align: center;
+        }
+        footer {
+            background-color: #4B2E26;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+  </style>
+</head>
+<body>
+  <nav>
+    <a href="home.html">Home</a>
+    <a href="menu.html">Menu</a>
+    <a href="about us.html">About Us</a>
+    <a href="book a table.html">Book a Table</a>
+    <a href="order.html">Make an Order</a>
+  </nav>
+  <p>Explore our celestial dishes.</p>
+  <section id="menu" style="display: flex; flex-direction: column; align-items: center; justify-content: center; height: 567px; background-color: #4B2E26; color: white;">
+    <h2>Our Menu</h2>
+    <div style="display: grid; grid-template-columns: repeat(5, 1fr); gap: 10px; width: 90%; height: 80%;">
+        <div style="text-align: center;">
+            <img src="https://i.pinimg.com/736x/3d/c6/74/3dc6748e937165a171e8f9384716e01d.jpg" alt="Dish 1" style="width: 100%; height: 100px; object-fit: cover;">
+            <p>Cesare Salad</p>
+            <p class="price">₱200.00</p>   
+        </div>
+        <div style="text-align: center;">
+            <img src="https://i.pinimg.com/736x/8c/51/2f/8c512f99e8f6967ba962499c5bc94f82.jpg" alt="Dish 2" style="width: 100%; height: 100px; object-fit: cover;">
+            <p>Pork Steak</p>
+            <p class="price">₱300.00</p>
+        </div>
+        <div style="text-align: center;">
+            <img src="https://i.pinimg.com/736x/fa/d2/5b/fad25b531e8978f28dd0fe5c001851e4.jpg" alt="Dish 3" style="width: 100%; height: 100px; object-fit: cover;">
+            <p>Seafood Pancit</p>
+            <p class="price">₱99.00</p>
+        </div>
+        <div style="text-align: center;">
+            <img src="https://i.pinimg.com/736x/73/6c/6a/736c6a09d866e67f5bbd938ece3b4ffe.jpg" alt="Dish 4" style="width: 100%; height: 100px; object-fit: cover;">
+            <p>Garlican Beef</p>
+            <p class="price">₱150.00</p>
+        </div>
+        <div style="text-align: center;">
+            <img src="https://i.pinimg.com/736x/fd/57/0f/fd570f23ba8933d3316f2a6351f6a7ea.jpg" alt="Dish 5" style="width: 100%; height: 100px; object-fit: cover;">
+            <p>Crispy Sesame Chicken</p>
+            <p class="price">₱150.00</p>
+        </div>
+        <div style="text-align: center;">
+            <img src="https://i.pinimg.com/736x/d9/b6/c3/d9b6c34fb8794bdc3782052954239c0f.jpg" alt="Dish 6" style="width: 100%; height: 100px; object-fit: cover;">
+            <p>Filipino Style Adobo</p>
+            <p class="price">₱230.00</p>
+        </div>
+        <div style="text-align: center;">
+            <img src="https://i.pinimg.com/736x/97/8f/84/978f84875ca669d894591a441e5389e4.jpg" alt="Dish 7" style="width: 100%; height: 100px; object-fit: cover;">
+            <p>Taccos</p>
+            <p class="price">₱100.00</p>
+        </div>
+        <div style="text-align: center;">
+            <img src="https://i.pinimg.com/736x/e7/56/18/e756187a3170b127381fbbb6a8147e6d.jpg" alt="Dish 8" style="width: 100%; height: 100px; object-fit: cover;">
+            <p>Creamy Chicken Marrole</p>
+            <p class="price">₱390.00</p>
+        </div>
+        <div style="text-align: center;">
+            <img src="https://i.pinimg.com/736x/90/da/7e/90da7e3c271f3441533f336d18169139.jpg" alt="Dish 9" style="width: 100%; height: 100px; object-fit: cover;">
+            <p>Mushrom Broccoli</p>
+            <p class="price">₱250.00</p>
+        </div>
+        <div style="text-align: center;">
+            <img src="https://i.pinimg.com/736x/02/7e/2f/027e2fa70c57965f81b3dcd978eead35.jpg" alt="Dish 10" style="width: 100%; height: 100px; object-fit: cover;">
+            <p>Sauteed Spinach and Carrots </p>
+            <p class="price">₱300.00</p>
+        </div>
+    </div>
+</section>
+
+</body>
+</html>
